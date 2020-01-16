@@ -1,0 +1,29 @@
+<HTML>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <form action="add.php" method="get">
+
+                <span>Member Registration</span>
+                <br><br>
+                <input type="text" name="inputName" placeholder="Name" value="" id="inputName"/>
+                <input type="number" name="inputAge" minimum="10" maximum="60" placeholder="Age" value="" id="inputAge"/>
+                <br>
+                <input type="email" name="inputEmail" placeholder="Email" value="" id="inputEmail"/>
+                <br>
+                <input type="text" name="inputPassword" placeholder="Password" value="" id="inputPassword"/>
+                <br>
+                <input type="text" name="inputPasswordConfirm" placeholder="Confirm Password" value="" id="inputPasswordConfirm"/>
+                <br>
+                <input type="submit" id="inputButton"/>
+                <br><br>
+                <a href="index.html">Already a user? Login here!</a>
+
+            </form>
+        </div>
+    </body>
+</HTML>

@@ -1,0 +1,30 @@
+body {
+    background-color: #ff9900;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+
+}
+#container {
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    background-color: #d3d3d3;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#inputEmail, #inputName, #inputAge, #inputPassword, #inputPasswordConfirm, #inputButton {
+    margin-top: 15px;
+    padding: 10px;
+    border: 0;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+#inputButton {
+    color:white;
+    background-color: purple;
+    cursor: pointer;
+}
