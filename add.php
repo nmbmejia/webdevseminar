@@ -10,8 +10,9 @@
     if($password != $confirmPass)
         echo "Passwords are not the same";
     else {
-        mysqli_query($connection, "INSERT INTO user VALUES (0, '".$name."', '".$age."', '".$email."', '".$password."')");
+        $result = mysqli_query($connection, "INSERT INTO user VALUES (0, '".$name."', '".$age."', '".$email."', '".$password."')");
     }
+    //Comment sample
 
 
 
